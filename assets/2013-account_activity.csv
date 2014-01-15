@@ -1,0 +1,408 @@
+Activity Date,Transaction,Description,Symbol,Qty,Fill Price,Commission,Net Amount
+12/31/2013,,Cash Dividend,DVN,,,,66
+12/30/2013,Sell To Open,EMC 3 Jan 14 (W) 25.00 Put,EMC,-3,0.18,5,49
+12/30/2013,Sell To Open,AXP 3 Jan 14 (W) 89.00 Put,AXP,-2,0.43,5,81
+12/30/2013,Sell To Open,EMC 3 Jan 14 (W) 25.00 Put,EMC,-6,0.19,4,110
+12/30/2013,Sell To Open,EMC 3 Jan 14 (W) 25.00 Put,EMC,-3,0.19,5,52
+12/27/2013,OPTASS,SLB 27 Dec 13 (W) 89.00 Call,SLB,3,,,0
+12/27/2013,Buy To Close,SLB 27 Dec 13 (W) 89.00 Call,SLB,3,0,,0
+12/27/2013,Sell To Open,SLB Stock,SLB,-300,89,5,26695
+12/23/2013,Sell To Open,MRVL 3 Jan 14 (W) 14.00 Call,MRVL,-2,0.13,2,24
+12/23/2013,Sell To Open,MRVL 3 Jan 14 (W) 14.00 Call,MRVL,-7,0.13,7,84
+12/23/2013,Sell To Open,MRVL 3 Jan 14 (W) 14.00 Call,MRVL,-7,0.13,7,84
+12/23/2013,Sell To Open,CSCO 27 Dec 13 (W) 21.50 Put,CSCO,-6,0.27,4,158
+12/23/2013,Sell To Open,CSCO 27 Dec 13 (W) 21.50 Put,CSCO,-3,0.27,5,76
+12/23/2013,Sell To Open,OXY 3 Jan 14 (W) 96.00 Call,OXY,-2,0.4,5,75
+12/23/2013,,Cash Dividend,MRVL,,,,96
+12/20/2013,OPTASS,DVN Dec 13 60.50 Call,DVN,3,,,0
+12/20/2013,Buy To Close,DVN Dec 13 60.50 Call,DVN,3,0,,0
+12/20/2013,Sell To Open,DVN Stock,DVN,-300,60.5,5,18145
+12/16/2013,Sell To Open,SLB 27 Dec 13 (W) 89.00 Call,SLB,-3,0.5,5,145
+12/16/2013,Sell To Open,DVN Dec 13 60.50 Call,DVN,-3,0.41,5,118
+12/16/2013,Sell To Open,MRVL Dec 13 14.00 Call,MRVL,-16,0.21,16,320
+12/16/2013,,Cash Dividend,IP,,,,175
+12/13/2013,,Cash Dividend,MET,,,,27.5
+12/9/2013,Sell To Open,MRVL 13 Dec 13 (W) 14.00 Call,MRVL,-14,0.07,14,84
+12/9/2013,Sell To Open,DVN 13 Dec 13 (W) 61.00 Call,DVN,-3,0.45,5,130
+12/6/2013,OPTASS,MRVL 6 Dec 13 (W) 14.00 Put,MRVL,16,,,0
+12/6/2013,OPTASS,DVN 6 Dec 13 (W) 60.50 Put,DVN,3,,,0
+12/6/2013,Buy To Close,MRVL 6 Dec 13 (W) 14.00 Put,MRVL,16,0,,0
+12/6/2013,Buy To Close,DVN 6 Dec 13 (W) 60.50 Put,DVN,3,0,,0
+12/6/2013,Buy To Open,MRVL Stock,MRVL,1600,14,5,-22405
+12/6/2013,Buy To Open,DVN Stock,DVN,300,60.5,5,-18155
+12/4/2013,Sell To Open,OXY 13 Dec 13 (W) 98.00 Call,OXY,-2,0.34,5,63
+12/4/2013,Sell To Open,SLB 13 Dec 13 (W) 91.00 Call,SLB,-3,0.18,5,49
+12/2/2013,Sell To Open,MRVL 6 Dec 13 (W) 14.00 Put,MRVL,-16,0.11,16,160
+12/2/2013,Sell To Open,DVN 6 Dec 13 (W) 60.50 Put,DVN,-3,0.62,5,181
+12/2/2013,,Cash Dividend,INTC,,,,202.5
+12/2/2013,,Money Market Dividends Paid,,,,,0.59
+11/29/2013,OPTASS,SLB 29 Nov 13 (W) 91.00 Put,SLB,3,,,0
+11/29/2013,OPTASS,OXY 29 Nov 13 (W) 98.00 Put,OXY,2,,,0
+11/29/2013,Buy To Close,SLB 29 Nov 13 (W) 91.00 Put,SLB,3,0,,0
+11/29/2013,Buy To Close,OXY 29 Nov 13 (W) 98.00 Put,OXY,2,0,,0
+11/29/2013,Buy To Open,OXY Stock,OXY,200,98,5,-19605
+11/29/2013,Buy To Open,SLB Stock,SLB,300,91,5,-27305
+11/25/2013,Sell To Open,SLB 29 Nov 13 (W) 91.00 Put,SLB,-3,0.65,5,190
+11/25/2013,Sell To Open,COH 29 Nov 13 (W) 54.00 Put,COH,-2,0.36,0,72
+11/25/2013,Sell To Open,COH 29 Nov 13 (W) 54.00 Put,COH,-2,0.36,5,67
+11/25/2013,Sell To Open,MOS 29 Nov 13 (W) 47.50 Put,MOS,-4,0.52,5,203
+11/25/2013,Sell To Open,OXY 29 Nov 13 (W) 98.00 Put,OXY,-2,0.74,5,143
+11/18/2013,Sell To Open,KO 22 Nov 13 (W) 40.00 Put,KO,-5,0.23,5,110
+11/18/2013,Sell To Open,VLO 22 Nov 13 (W) 43.00 Put,VLO,-5,0.57,5,280
+11/18/2013,Sell To Open,QCOM 22 Nov 13 (W) 72.00 Put,QCOM,-3,0.69,5,202
+11/18/2013,Sell To Open,MCD 22 Nov 13 (W) 97.00 Put,MCD,-2,0.55,5,105
+11/15/2013,OPTASS,IP Nov 13 44.50 Call,IP,5,,,0
+11/15/2013,OPTASS,INTC Nov 13 24.50 Call,INTC,9,,,0
+11/15/2013,Buy To Close,IP Nov 13 44.50 Call,IP,5,0,,0
+11/15/2013,Buy To Close,INTC Nov 13 24.50 Call,INTC,9,0,,0
+11/15/2013,Sell To Open,IP Stock,IP,-500,44.5,5,22245
+11/15/2013,Sell To Open,INTC Stock,INTC,-900,24.5,5,22045
+11/11/2013,Sell To Open,MAIN Nov 13 30.00 Put,MAIN,-7,0.15,7,98
+11/11/2013,Sell To Open,INTC Nov 13 24.50 Call,INTC,-6,0.1,4,56
+11/11/2013,Sell To Open,INTC Nov 13 24.50 Call,INTC,-3,0.1,5,25
+11/11/2013,Sell To Open,MCHP Nov 13 43.00 Put,MCHP,-5,0.45,5,220
+11/11/2013,Sell To Open,IP Nov 13 44.50 Call,IP,-5,0.19,5,90
+11/8/2013,OPTASS,MET 8 Nov 13 (W) 47.50 Call,MET,1,,,0
+11/8/2013,OPTASS,IP 8 Nov 13 (W) 44.00 Put,IP,5,,,0
+11/8/2013,Buy To Close,MET 8 Nov 13 (W) 47.50 Call,MET,1,0,,0
+11/8/2013,Buy To Close,IP 8 Nov 13 (W) 44.00 Put,IP,5,0,,0
+11/8/2013,Buy To Open,IP Stock,IP,500,44,5,-22005
+11/8/2013,Sell To Open,MET Stock,MET,-100,47.5,5,4745
+11/5/2013,Sell To Open,DD 8 Nov 13 (W) 60.00 Put,DD,-3,0.41,5,118
+11/5/2013,Sell To Open,IP 8 Nov 13 (W) 44.00 Put,IP,-1,0.31,0,31
+11/5/2013,Sell To Open,IP 8 Nov 13 (W) 44.00 Put,IP,-1,0.31,0,31
+11/5/2013,Sell To Open,IP 8 Nov 13 (W) 44.00 Put,IP,-1,0.31,0,31
+11/5/2013,Sell To Open,IP 8 Nov 13 (W) 44.00 Put,IP,-2,0.31,5,57
+11/5/2013,Buy To Close,MET 8 Nov 13 (W) 47.50 Call,MET,4,0,,0
+11/5/2013,Sell To Open,MET Stock,MET,-400,47.5,5,18995
+11/5/2013,OPTASS,MET 8 Nov 13 (W) 47.50 Call,MET,4,,,0
+11/4/2013,Sell To Open,MET 8 Nov 13 (W) 47.50 Call,MET,-5,0.42,5,205
+11/4/2013,Sell To Open,INTC 8 Nov 13 (W) 24.50 Call,INTC,-9,0.09,9,72
+11/1/2013,Buy To Open,MET Stock,MET,500,48.5,5,-24255
+11/1/2013,Buy To Open,INTC Stock,INTC,900,24.5,5,-22055
+11/1/2013,,Money Market Dividends Paid,,,,,0.25
+11/1/2013,OPTASS,MET 1 Nov 13 (W) 48.50 Put,MET,5,,,0
+11/1/2013,OPTASS,INTC 1 Nov 13 (W) 24.50 Put,INTC,9,,,0
+11/1/2013,Buy To Close,INTC 1 Nov 13 (W) 24.50 Put,INTC,9,0,,0
+11/1/2013,Buy To Close,MET 1 Nov 13 (W) 48.50 Put,MET,5,0,,0
+10/28/2013,Sell To Open,INTC 1 Nov 13 (W) 24.50 Put,INTC,-9,0.19,9,162
+10/28/2013,Sell To Open,MET 1 Nov 13 (W) 48.50 Put,MET,-5,0.76,5,375
+10/28/2013,Sell To Open,WFC 1 Nov 13 (W) 42.50 Put,WFC,-5,0.2,5,95
+10/28/2013,Sell To Open,PFE 1 Nov 13 (W) 30.50 Put,PFE,-1,0.24,1,23
+10/28/2013,Sell To Open,PFE 1 Nov 13 (W) 30.50 Put,PFE,-2,0.24,0,48
+10/28/2013,Sell To Open,PFE 1 Nov 13 (W) 30.50 Put,PFE,-3,0.24,5,67
+10/28/2013,,Cash Dividend,AGNC,,,,160
+10/25/2013,,Cash Dividend,SYY,,,,140
+10/21/2013,Sell To Open,AGNC 25 Oct 13 (W) 23.00 Put,AGNC,-8,0.07,8,48
+10/21/2013,Sell To Open,F 25 Oct 13 (W) 17.00 Put,F,-2,0.12,2,22
+10/21/2013,Sell To Open,F 25 Oct 13 (W) 17.00 Put,F,-1,0.12,1,11
+10/21/2013,Sell To Open,F 25 Oct 13 (W) 17.00 Put,F,-1,0.12,1,11
+10/21/2013,Sell To Open,F 25 Oct 13 (W) 17.00 Put,F,-2,0.12,2,22
+10/21/2013,Sell To Open,F 25 Oct 13 (W) 17.00 Put,F,-1,0.12,0,12
+10/21/2013,Sell To Open,F 25 Oct 13 (W) 17.00 Put,F,-4,0.12,5,43
+10/21/2013,Sell To Open,AAPL 25 Oct 13 (W) 500.00 (mini) Put,AAPL,-9,1.05,9,85.5
+10/18/2013,OPTASS,SYY Oct 13 32.00 Call,SYY,5,,,0
+10/18/2013,OPTASS,CYS Oct 13 8.00 Call,CYS,26,,,0
+10/18/2013,OPTASS,AAPL Oct 13 500.00 (mini) Call,AAPL,8,,,0
+10/18/2013,Buy To Close,CYS Oct 13 8.00 Call,CYS,26,0,,0
+10/18/2013,Buy To Close,SYY Oct 13 32.00 Call,SYY,5,0,,0
+10/18/2013,Buy To Close,AAPL Oct 13 500.00 (mini) Call,AAPL,8,0,,0
+10/18/2013,Sell To Open,SYY Stock,SYY,-500,32,5,15995
+10/18/2013,Sell To Open,CYS Stock,CYS,-2600,8,5,20795
+10/18/2013,Sell To Open,AAPL Stock,AAPL,-80,500,5,39995
+10/14/2013,Sell To Open,AAPL Oct 13 500.00 (mini) Call,AAPL,-8,3.86,8,300.8
+10/7/2013,Sell To Open,AAPL 11 Oct 13 (W) 495.00 (mini) Call,AAPL,-8,3.3,8,256
+10/4/2013,OPTASS,AGNC 4 Oct 13 (W) 23.00 Call,AGNC,2,,,0
+10/4/2013,Buy To Close,AGNC 4 Oct 13 (W) 23.00 Call,AGNC,2,0,,0
+10/4/2013,Sell To Open,AGNC Stock,AGNC,-200,23,5,4595
+10/1/2013,Sell To Open,AGNC 4 Oct 13 (W) 23.00 Call,AGNC,-2,0.11,5,17
+10/1/2013,Sell To Open,AAPL 4 Oct 13 (W) 500.00 (mini) Call,AAPL,-8,0.95,8,68
+10/1/2013,,Money Market Dividends Paid,,,,,0.22
+9/26/2013,Sell To Open,SYY Oct 13 32.00 Call,SYY,-5,0.4,9.25,190.75
+9/26/2013,Buy To Open,SYY Stock,SYY,500,32.2099,3.95,-16108.9
+9/26/2013,Sell To Open,AAPL 27 Sep 13 (W) 490.00 (mini) Call,AAPL,-8,1.84,9.7,137.5
+9/25/2013,Buy To Close,AAPL 4 Oct 13 (W) 500.00 (mini) Call,AAPL,8,2.83,9.7,-236.1
+9/25/2013,Sell To Open,AAPL 4 Oct 13 (W) 500.00 (mini) Call,AAPL,-8,3,9.7,230.3
+9/25/2013,Buy To Close,AAPL 27 Sep 13 (W) 500.00 (mini) Call,AAPL,8,0.69,9.7,-64.9
+9/25/2013,OPTASS,AGNC 27 Sep 13 (W) 23.50 Call,AGNC,7,,,0
+9/25/2013,Buy To Close,AGNC 27 Sep 13 (W) 23.50 Call,AGNC,7,0,,0
+9/25/2013,Sell To Open,AGNC Stock,AGNC,-700,23.5,5,16445
+9/24/2013,Sell To Open,AAPL 27 Sep 13 (W) 500.00 (mini) Call,AAPL,-8,2.39,9.7,181.5
+9/23/2013,Sell To Open,AGNC 27 Sep 13 (W) 23.50 Call,AGNC,-9,0.16,9.85,134.15
+9/23/2013,Sell To Open,CYS Oct 13 8.00 Call,CYS,-26,0.25,12.4,637.6
+9/20/2013,OPTASS,CYS Sep 13 8.00 Put,CYS,26,,,0
+9/20/2013,OPTASS,AGNC Sep 13 23.50 Put,AGNC,9,,,0
+9/20/2013,Buy To Close,AGNC Sep 13 23.50 Put,AGNC,9,0,,0
+9/20/2013,Buy To Close,CYS Sep 13 8.00 Put,CYS,26,0,,0
+9/20/2013,Buy To Open,AGNC Stock,AGNC,900,23.5,5,-21155
+9/20/2013,Buy To Open,CYS Stock,CYS,2600,8,5,-20805
+9/17/2013,Sell To Open,AGNC Sep 13 23.50 Put,AGNC,-9,0.34,9.85,296.15
+9/16/2013,Sell To Open,CYS Sep 13 8.00 Put,CYS,-26,0.16,12.4,403.6
+9/16/2013,Buy To Open,AAPL Stock,AAPL,42,455.89,3.95,-19151.33
+9/9/2013,Sell To Open,INTC 13 Sep 13 (W) 22.50 Put,INTC,-8,0.14,1.2,110.8
+9/9/2013,Sell To Open,INTC 13 Sep 13 (W) 22.50 Put,INTC,-8,0.14,9.7,102.3
+9/9/2013,Sell To Open,F 13 Sep 13 (W) 17.00 Put,F,-4,0.08,0.6,31.4
+9/9/2013,Sell To Open,F 13 Sep 13 (W) 17.00 Put,F,-11,0.08,10.15,77.85
+9/6/2013,OPTASS,INTC 6 Sep 13 (W) 22.50 Call,INTC,15,,,0
+9/6/2013,OPTASS,F 6 Sep 13 (W) 17.00 Call,F,15,,,0
+9/6/2013,Buy To Close,F 6 Sep 13 (W) 17.00 Call,F,15,0,,0
+9/6/2013,Buy To Close,INTC 6 Sep 13 (W) 22.50 Call,INTC,15,0,,0
+9/6/2013,Sell To Open,F Stock,F,-1500,17,5,25495
+9/6/2013,Sell To Open,INTC Stock,INTC,-1500,22.5,5,33745
+9/3/2013,Sell To Open,INTC 6 Sep 13 (W) 22.50 Call,INTC,-9,0.09,1.35,79.65
+9/3/2013,Sell To Open,INTC 6 Sep 13 (W) 22.50 Call,INTC,-6,0.09,9.4,44.6
+9/3/2013,,Money Market Dividends Paid,,,,,0.04
+8/26/2013,Sell To Open,INTC 30 Aug 13 (W) 22.50 Call,INTC,-15,0.12,10.75,169.25
+8/22/2013,Sell To Open,F 6 Sep 13 (W) 17.00 Call,F,-15,0.11,10.75,154.25
+8/19/2013,Sell To Open,INTC 23 Aug 13 (W) 22.50 Call,INTC,-15,0.1,10.75,139.25
+8/19/2013,,Money Market Dividends Paid,,,,,0.3
+8/16/2013,OPTASS,INTC Aug 13 22.50 Put,INTC,15,,,0
+8/16/2013,OPTASS,F Aug 13 17.00 Put,F,15,,,0
+8/16/2013,Buy To Close,INTC Aug 13 22.50 Put,INTC,15,0,,0
+8/16/2013,Buy To Close,F Aug 13 17.00 Put,F,15,0,,0
+8/16/2013,Buy To Open,F Stock,F,1500,17,5,-25505
+8/16/2013,Buy To Open,INTC Stock,INTC,1500,22.5,5,-33755
+8/15/2013,,Cash Dividend,AAPL,,,,115.9
+8/14/2013,Sell To Open,F Aug 13 17.00 Put,F,-15,0.12,10.75,169.25
+8/12/2013,Sell To Open,INTC Aug 13 22.50 Put,INTC,-15,0.2,10.75,289.25
+8/6/2013,Sell To Open,INTC 9 Aug 13 (W) 22.50 Put,INTC,-14,0.07,10.6,87.4
+8/1/2013,Sell To Open,MSFT 9 Aug 13 (W) 31.50 Put,MSFT,-9,0.21,1.35,187.65
+8/1/2013,Buy To Close,MSFT 2 Aug 13 (W) 31.00 Put,MSFT,9,0.02,13.85,-31.85
+8/1/2013,,Money Market Dividends Paid,,,,,0.09
+7/29/2013,Sell To Open,INTC 2 Aug 13 (W) 23.00 Put,INTC,-13,0.13,10.45,158.55
+7/29/2013,Sell To Open,MSFT 2 Aug 13 (W) 31.00 Put,MSFT,-9,0.12,9.85,98.15
+7/26/2013,OPTASS,FB 26 Jul 13 (W) 28.50 Call,FB,8,,,0
+7/26/2013,Buy To Close,FB 26 Jul 13 (W) 28.50 Call,FB,8,0,,0
+7/26/2013,Sell To Open,FB Stock,FB,-800,28.5,5,22795
+7/22/2013,Sell To Open,INTC 26 Jul 13 (W) 22.50 Put,INTC,-3,0.11,0.45,32.55
+7/22/2013,Sell To Open,INTC 26 Jul 13 (W) 22.50 Put,INTC,-13,0.11,10.45,132.55
+7/19/2013,OPTASS,ATVI Jul 13 14.00 Call,ATVI,26,,,0
+7/19/2013,Buy To Close,ATVI Jul 13 14.00 Call,ATVI,26,0,,0
+7/19/2013,Sell To Open,ATVI Stock,ATVI,-2600,14,5,36395
+7/11/2013,Sell To Open,FB 26 Jul 13 (W) 28.50 Call,FB,-1,0.18,0.15,17.85
+7/11/2013,Sell To Open,FB 26 Jul 13 (W) 28.50 Call,FB,-1,0.18,0.15,17.85
+7/11/2013,Sell To Open,FB 26 Jul 13 (W) 28.50 Call,FB,-1,0.18,0.15,17.85
+7/11/2013,Sell To Open,FB 26 Jul 13 (W) 28.50 Call,FB,-1,0.18,0.15,17.85
+7/11/2013,Sell To Open,FB 26 Jul 13 (W) 28.50 Call,FB,-1,0.18,0.15,17.85
+7/11/2013,Sell To Open,FB 26 Jul 13 (W) 28.50 Call,FB,-3,0.18,8.95,45.05
+7/1/2013,,Money Market Dividends Paid,,,,,0.22
+6/26/2013,Buy To Open,AAPL Stock,AAPL,5,399.55,3.95,-2001.7
+6/25/2013,Sell To Open,ATVI Jul 13 14.00 Call,ATVI,-26,0.34,12.4,871.6
+6/21/2013,OPTASS,ATVI Jun 13 14.00 Put,ATVI,26,,,0
+6/21/2013,Buy To Close,ATVI Jun 13 14.00 Put,ATVI,26,0,,0
+6/21/2013,Buy To Open,ATVI Stock,ATVI,2600,14,5,-36405
+6/4/2013,Sell To Open,ATVI Jun 13 14.00 Put,ATVI,-26,0.27,12.4,689.6
+6/3/2013,,Money Market Dividends Paid,,,,,0.17
+5/31/2013,OPTASS,INTC 31 May 13 (W) 24.00 Call,INTC,15,,,0
+5/31/2013,Buy To Close,INTC 31 May 13 (W) 24.00 Call,INTC,15,0,,0
+5/31/2013,Sell To Open,INTC Stock,INTC,-1500,24,5,35995
+5/28/2013,Sell To Open,INTC 31 May 13 (W) 24.00 Call,INTC,-15,0.3,10.75,439.25
+5/24/2013,OPTASS,INTC 24 May 13 (W) 24.00 Put,INTC,15,,,0
+5/24/2013,Buy To Close,INTC 24 May 13 (W) 24.00 Put,INTC,15,0,,0
+5/24/2013,Buy To Open,INTC Stock,INTC,1500,24,5,-36005
+5/20/2013,Sell To Open,INTC 24 May 13 (W) 24.00 Put,INTC,-15,0.2,10.75,289.25
+5/17/2013,OPTASS,P May 13 14.00 Call,P,3,,,0
+5/17/2013,Buy To Close,P May 13 14.00 Call,P,3,0,,0
+5/17/2013,Sell To Open,P Stock,P,-300,14,5,4195
+5/16/2013,,Cash Dividend,AAPL,,,,100.65
+5/15/2013,OPTASS,P May 13 14.00 Call,P,13,,,0
+5/15/2013,Buy To Close,P May 13 14.00 Call,P,13,0,,0
+5/15/2013,Sell To Open,P Stock,P,-1300,14,5,18195
+5/13/2013,Sell To Open,FB May 13 27.50 Call,FB,-2,0.15,0.3,29.7
+5/13/2013,Sell To Open,FB May 13 27.50 Call,FB,-2,0.15,0.3,29.7
+5/13/2013,Sell To Open,FB May 13 27.50 Call,FB,-4,0.15,9.1,50.9
+5/13/2013,OPTASS,P May 13 14.00 Call,P,7,,,0
+5/13/2013,Buy To Close,P May 13 14.00 Call,P,7,0,,0
+5/13/2013,Sell To Open,P Stock,P,-700,14,5,9795
+5/10/2013,OPTASS,FB 10 May 13 (W) 27.50 Put,FB,8,,,0
+5/10/2013,Buy To Close,FB 10 May 13 (W) 27.50 Put,FB,8,0,,0
+5/10/2013,Buy To Open,FB Stock,FB,800,27.5,5,-22005
+5/6/2013,Sell To Open,FB 10 May 13 (W) 27.50 Put,FB,-8,0.16,9.7,118.3
+5/3/2013,OPTASS,FB 3 May 13 (W) 27.50 Call,FB,8,,,0
+5/3/2013,Buy To Close,FB 3 May 13 (W) 27.50 Call,FB,8,0,,0
+5/3/2013,Sell To Open,FB Stock,FB,-800,27.5,5,21995
+5/1/2013,Sell To Open,ZNGA May 13 3.00 Put,ZNGA,-2,0.05,0.3,9.7
+5/1/2013,Sell To Open,ZNGA May 13 3.00 Put,ZNGA,-2,0.05,0.3,9.7
+5/1/2013,Sell To Open,ZNGA May 13 3.00 Put,ZNGA,-1,0.05,0.15,4.85
+5/1/2013,Sell To Open,ZNGA May 13 3.00 Put,ZNGA,-2,0.05,0.3,9.7
+5/1/2013,Sell To Open,ZNGA May 13 3.00 Put,ZNGA,-1,0.05,0.15,4.85
+5/1/2013,Sell To Open,ZNGA May 13 3.00 Put,ZNGA,-5,0.05,9.25,15.75
+5/1/2013,,Money Market Dividends Paid,,,,,0.1
+4/29/2013,Sell To Open,FB 3 May 13 (W) 27.50 Call,FB,-8,1.06,9.7,838.3
+4/24/2013,Sell To Open,P May 13 14.00 Call,P,-18,0.7,2.7,1257.3
+4/24/2013,Sell To Open,P May 13 14.00 Call,P,-5,0.7,9.25,340.75
+4/22/2013,Sell To Open,FB 26 Apr 13 (W) 27.00 Call,FB,-8,0.1,9.7,70.3
+4/19/2013,OPTASS,FB Apr 13 27.00 Put,FB,8,,,0
+4/19/2013,Buy To Close,FB Apr 13 27.00 Put,FB,8,0,,0
+4/19/2013,Buy To Open,FB Stock,FB,800,27,5,-21605
+4/15/2013,Sell To Open,FB Apr 13 27.00 Put,FB,-8,0.29,9.7,222.3
+4/8/2013,Sell To Open,FB 12 Apr 13 (W) 26.50 Put,FB,-8,0.23,9.7,174.3
+4/5/2013,OPTASS,FB 5 Apr 13 (W) 26.00 Call,FB,8,,,0
+4/5/2013,Buy To Close,FB 5 Apr 13 (W) 26.00 Call,FB,8,0,,0
+4/5/2013,Sell To Open,FB Stock,FB,-800,26,5,20795
+4/1/2013,Buy To Close,P Apr 13 14.00 Call,P,23,0.35,11.95,-816.95
+4/1/2013,Buy To Close,P Apr 13 14.00 Call,P,23,0.35,11.95,-816.95
+4/1/2013,Sell To Open,FB 5 Apr 13 (W) 26.00 Call,FB,-8,0.28,9.7,214.3
+4/1/2013,,Money Market Dividends Paid,,,,,0.13
+3/27/2013,Sell To Open,P Apr 13 14.00 Call,P,-3,0.6,0.45,179.55
+3/27/2013,Sell To Open,P Apr 13 14.00 Call,P,-20,0.6,11.5,1188.5
+3/25/2013,Sell To Open,FB 28 Mar 13 (W) 26.00 Call,FB,-8,0.12,9.7,86.3
+3/21/2013,Buy To Close,P Apr 13 14.00 Call,P,23,0.35,11.95,-816.95
+3/15/2013,Sell To Open,P Apr 13 14.00 Call,P,-3,0.85,0.45,254.55
+3/15/2013,Sell To Open,P Apr 13 14.00 Call,P,-5,0.85,0.75,424.25
+3/15/2013,Sell To Open,P Apr 13 14.00 Call,P,-2,0.85,0.3,169.7
+3/15/2013,Sell To Open,P Apr 13 14.00 Call,P,-4,0.85,0.6,339.4
+3/15/2013,Sell To Open,P Apr 13 14.00 Call,P,-9,0.85,9.85,755.15
+3/15/2013,OPTASS,FB Mar 13 28.00 Put,FB,8,,,0
+3/15/2013,Buy To Close,FB Mar 13 28.00 Put,FB,8,0,,0
+3/15/2013,Buy To Open,FB Stock,FB,800,28,5,-22405
+3/11/2013,Sell To Open,FB Mar 13 28.00 Put,FB,-8,0.44,9.7,342.3
+3/8/2013,Buy To Close,P Mar 13 13.00 Call,P,4,1.45,0.6,-580.6
+3/8/2013,Buy To Close,P Mar 13 13.00 Call,P,14,1.45,10.6,-2040.6
+3/8/2013,Buy To Close,FB 8 Mar 13 (W) 27.50 Put,FB,1,0.03,0.15,-3.15
+3/8/2013,Buy To Close,FB 8 Mar 13 (W) 27.50 Put,FB,1,0.03,0.15,-3.15
+3/8/2013,Buy To Close,FB 8 Mar 13 (W) 27.50 Put,FB,2,0.03,0.3,-6.3
+3/8/2013,Buy To Close,FB 8 Mar 13 (W) 27.50 Put,FB,1,0.03,0.15,-3.15
+3/8/2013,Buy To Close,FB 8 Mar 13 (W) 27.50 Put,FB,3,0.03,8.95,-17.95
+3/8/2013,Buy To Close,P Mar 13 13.00 Call,P,5,1.6,9.25,-809.25
+3/7/2013,Sell To Open,P Mar 13 13.00 Call,P,-23,0.56,11.95,1276.05
+3/5/2013,Sell To Open,FB 8 Mar 13 (W) 27.50 Put,FB,-4,0.52,0.6,207.4
+3/5/2013,Sell To Open,FB 8 Mar 13 (W) 27.50 Put,FB,-4,0.52,9.1,198.9
+3/1/2013,Buy To Close,P Mar 13 14.00 Call,P,23,0.45,11.95,-1046.95
+3/1/2013,,Cash Dividend,INTC,,,,202.5
+3/1/2013,,Money Market Dividends Paid,,,,,0.07
+2/27/2013,Sell To Open,P Mar 13 14.00 Call,P,-18,0.75,2.7,1347.3
+2/27/2013,Sell To Open,P Mar 13 14.00 Call,P,-5,0.75,9.25,365.75
+2/25/2013,Sell To Open,FB 1 Mar 13 (W) 27.00 Put,FB,-8,0.36,9.7,278.3
+2/21/2013,Sell To Open,FB 22 Feb 13 (W) 27.00 Put,FB,-7,0.18,9.55,116.45
+2/20/2013,Buy To Close,P Mar 13 14.00 Call,P,9,0.4,1.35,-361.35
+2/20/2013,Buy To Close,P Mar 13 14.00 Call,P,14,0.4,10.6,-570.6
+2/19/2013,Sell To Open,P Mar 13 14.00 Call,P,-4,0.8,0.6,319.4
+2/19/2013,Sell To Open,P Mar 13 14.00 Call,P,-7,0.8,1.05,558.95
+2/19/2013,Sell To Open,P Mar 13 14.00 Call,P,-3,0.8,0.45,239.55
+2/19/2013,Sell To Open,P Mar 13 14.00 Call,P,-9,0.8,9.85,710.15
+2/19/2013,Sell To Close,INTC Stock,INTC,-900,21.1801,3.95,19058.14
+2/15/2013,Buy To Close,P Feb 13 12.00 Call,P,20,0.91,3,-1823
+2/15/2013,Sell To Open,P Feb 13 13.00 Call,P,-20,0.01,3,17
+2/15/2013,Sell To Open,P Feb 13 13.00 Call,P,-2,0.05,0.3,9.7
+2/15/2013,Sell To Open,P Feb 13 13.00 Call,P,-1,0.05,0.15,4.85
+2/15/2013,Buy To Close,P Feb 13 12.00 Call,P,3,0.95,12.95,-297.95
+2/14/2013,,Cash Dividend,AAPL,,,,87.45
+2/12/2013,Sell To Open,INTC Feb 13 21.50 Call,INTC,-9,0.07,9.85,53.15
+2/5/2013,Sell To Open,INTC 8 Feb 13 (W) 21.50 Call,INTC,-9,0.05,9.85,35.15
+2/1/2013,,Money Market Dividends Paid,,,,,0.15
+1/29/2013,Sell To Open,P Feb 13 12.00 Call,P,-23,0.22,3.45,502.55
+1/29/2013,Buy To Close,P Feb 13 11.00 Call,P,23,0.61,15.95,-1418.95
+1/28/2013,Sell To Open,INTC 1 Feb 13 (W) 21.50 Call,INTC,-9,0.05,9.85,35.15
+1/25/2013,Sell To Open,P Feb 13 11.00 Call,P,-23,0.85,11.95,1943.05
+1/23/2013,Sell To Open,INTC 25 Jan 13 (W) 21.50 Call,INTC,-9,0.03,9.85,17.15
+1/22/2013,Buy To Open,AAPL Stock,AAPL,10,499,3.95,-4993.95
+1/22/2013,Buy To Open,INTC Stock,INTC,900,21.17,3.95,-19056.95
+1/18/2013,OPTASS,P Jan 13 10.00 Call,P,9,,,0
+1/18/2013,Buy To Close,P Jan 13 10.00 Call,P,9,0,,0
+1/18/2013,Sell To Open,P Stock,P,-900,10,5,8995
+1/15/2013,Sell To Close,ZNGA Stock,ZNGA,-100,2.64,3.95,260.05
+1/14/2013,Sell To Open,P Jan 13 11.00 Call,P,-23,0.24,3.45,548.55
+1/14/2013,Buy To Close,P Jan 13 10.00 Call,P,23,1,15.95,-2315.95
+1/8/2013,Sell To Open,INTC Jan 13 21.00 Put,INTC,-1,0.27,0.15,26.85
+1/8/2013,Sell To Open,INTC Jan 13 21.00 Put,INTC,-2,0.27,0.3,53.7
+1/8/2013,Sell To Open,INTC Jan 13 21.00 Put,INTC,-1,0.27,0.15,26.85
+1/8/2013,Sell To Open,INTC Jan 13 21.00 Put,INTC,-1,0.27,0.15,26.85
+1/8/2013,Sell To Open,INTC Jan 13 21.00 Put,INTC,-1,0.27,0.15,26.85
+1/8/2013,Sell To Open,INTC Jan 13 21.00 Put,INTC,-3,0.27,8.95,72.05
+1/7/2013,Sell To Open,P Jan 13 10.00 Call,P,-32,0.62,4.8,1979.2
+1/7/2013,Buy To Close,P Jan 13 9.00 Call,P,32,1.48,17.3,-4753.3
+1/2/2013,,Money Market Dividends Paid,,,,,0.1
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
