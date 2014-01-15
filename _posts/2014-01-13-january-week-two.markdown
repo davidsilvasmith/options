@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "January Week Two"
-date:   2014-01-13 10:00:00
+category: archive
 ---
 
 I successfully filled these orders:
