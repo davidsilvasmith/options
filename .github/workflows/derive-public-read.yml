@@ -1,0 +1,25 @@
+name: Temporary Derive public read
+
+on:
+  push:
+    branches: [temp-derive-public-read]
+  workflow_dispatch:
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Resolve Derive subaccounts
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL='https://explorer.derive.xyz/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0xeB8d770ec18DB98Db922E9D83260A585b9F0DeAD&topic0=0x043a568d47b1a65cdc989ff14c921411b62abf40132dc4b5e78675ba8d0bc9df&topic2=0x000000000000000000000000d3395a7ef1e2ebe15ab9e1ba70f85f90c10da77e&topic0_2_opr=and'
+          curl -fsSL "$URL" | tee derive-subaccounts.json
+          echo
+          python3 - <<'PY'
+          import json
+          d=json.load(open('derive-subaccounts.json'))
+          print('PARSED_RESULT')
+          print(json.dumps(d, indent=2))
+          PY
