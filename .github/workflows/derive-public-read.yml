@@ -7,6 +7,9 @@ on:
     branches: [master]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   read:
     runs-on: ubuntu-latest
@@ -37,7 +40,9 @@ jobs:
           ];
           const optionAbi = ['function getOptionDetails(uint96 subId) view returns (uint256 expiry,uint256 strike,bool isCall)'];
           const sub = new ethers.Contract(subAccountsAddress, subAbi, provider);
-          const out = { blockNumber: await provider.getBlockNumber(), rpc, accounts: [] };
+          const blockNumber = await provider.getBlockNumber();
+          const block = await provider.getBlock(blockNumber);
+          const out = { blockNumber, blockTimestamp: block?.timestamp ?? null, blockIso: block ? new Date(Number(block.timestamp) * 1000).toISOString() : null, rpc, accounts: [] };
           for (const id of ids) {
             const rec = { id: id.toString() };
             try { rec.owner = await sub.ownerOf(id); } catch (e) { rec.ownerError = e.shortMessage || e.message; }
@@ -82,12 +87,22 @@ jobs:
             }
             out.accounts.push(rec);
           }
-          console.log('LIVE_DERIVE_JSON_START');
           console.log(JSON.stringify(out, null, 2));
-          console.log('LIVE_DERIVE_JSON_END');
           JS
-          node read.mjs
-          echo 'PUBLIC_INSTRUMENT_SAMPLE_START'
-          curl -fsSL -X POST 'https://api.lyra.finance/public/get_instruments' -H 'content-type: application/json' --data '{"currency":"BTC","instrument_type":"option","expired":false,"page":1,"page_size":2}' || true
-          echo
-          echo 'PUBLIC_INSTRUMENT_SAMPLE_END'
+          node read.mjs | tee live-output.json
+          for CUR in BTC ETH HYPE; do
+            curl -fsSL -X POST 'https://api.lyra.finance/public/get_instruments' \
+              -H 'content-type: application/json' \
+              --data "{\"currency\":\"$CUR\",\"instrument_type\":\"option\",\"expired\":false,\"page\":1,\"page_size\":5}" \
+              > "instruments-$CUR.json" || echo '{}' > "instruments-$CUR.json"
+          done
+      - name: Upload public live read
+        uses: actions/upload-artifact@v4
+        with:
+          name: derive-live-output
+          path: |
+            /tmp/derive-live/live-output.json
+            /tmp/derive-live/instruments-BTC.json
+            /tmp/derive-live/instruments-ETH.json
+            /tmp/derive-live/instruments-HYPE.json
+          retention-days: 1
