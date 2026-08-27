@@ -3,6 +3,8 @@ name: Temporary Derive public read
 on:
   push:
     branches: [temp-derive-public-read]
+  pull_request:
+    branches: [master]
   workflow_dispatch:
 
 jobs:
