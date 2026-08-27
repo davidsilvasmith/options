@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Read current Derive account from chain
+      - name: Read current Derive account from chain and public market API
         shell: bash
         run: |
           set -euo pipefail
@@ -90,19 +90,38 @@ jobs:
           console.log(JSON.stringify(out, null, 2));
           JS
           node read.mjs | tee live-output.json
-          for CUR in BTC ETH HYPE; do
-            curl -fsSL -X POST 'https://api.lyra.finance/public/get_instruments' \
-              -H 'content-type: application/json' \
-              --data "{\"currency\":\"$CUR\",\"instrument_type\":\"option\",\"expired\":false,\"page\":1,\"page_size\":5}" \
-              > "instruments-$CUR.json" || echo '{}' > "instruments-$CUR.json"
-          done
+
+          cat > market.mjs <<'JS'
+          const api = 'https://api.lyra.finance/';
+          async function post(method, params) {
+            try {
+              const r = await fetch(api + method, { method: 'POST', headers: {'content-type':'application/json'}, body: JSON.stringify(params) });
+              return { status: r.status, body: await r.json() };
+            } catch (e) { return { error: e.message }; }
+          }
+          const positions = [
+            ['BTC-20260925-60000-P', -2],
+            ['BTC-20260925-62000-P', -2.9],
+            ['ETH-20260828-1600-P', -45],
+            ['ETH-20260828-1700-P', -43],
+            ['ETH-20260925-1500-P', -31],
+            ['ETH-20260925-1600-P', -87],
+            ['ETH-20260925-1850-P', -20],
+            ['ETH-20261225-1600-P', -4],
+            ['HYPE-20260925-30-P', -1333],
+            ['HYPE-20260925-34-P', -1176]
+          ];
+          const out = { fetchedAt: new Date().toISOString(), marginWatch: await post('public/margin_watch', {subaccount_id:63828, force_onchain:true, is_delayed_liquidation:false}), currencies: {}, tickers: {} };
+          for (const cur of ['BTC','ETH','HYPE']) out.currencies[cur] = await post('public/get_currency', {currency:cur});
+          for (const [name, amount] of positions) out.tickers[name] = { amount, response: await post('public/get_ticker', {instrument_name:name}) };
+          console.log(JSON.stringify(out, null, 2));
+          JS
+          node market.mjs | tee market-output.json
       - name: Upload public live read
         uses: actions/upload-artifact@v4
         with:
           name: derive-live-output
           path: |
             /tmp/derive-live/live-output.json
-            /tmp/derive-live/instruments-BTC.json
-            /tmp/derive-live/instruments-ETH.json
-            /tmp/derive-live/instruments-HYPE.json
+            /tmp/derive-live/market-output.json
           retention-days: 1
